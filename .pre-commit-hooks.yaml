@@ -1,6 +1,19 @@
+# C++
+- id: clang-format
+  name: clang-format
+  description: Format C/C++ sources with ‹clang-format›.
+  entry: clang-format -i
+  language: system
+  types:
+    - c
+    - c++
+  args:
+    - "-style=file"
+
+# Rust
 - id: rust-fmt
   name: rustfmt
-  description: Format Rust sources with the ‹rustfmt›.
+  description: Format Rust sources with ‹rustfmt›.
   entry: rustfmt
   language: system
   types:
