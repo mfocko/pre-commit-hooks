@@ -4,7 +4,7 @@
   description: Format C/C++ sources with ‹clang-format›.
   entry: clang-format -i
   language: system
-  types:
+  types_or:
     - c
     - c++
   args:
