@@ -25,3 +25,32 @@
   language: system
   types:
     - rust
+
+# Cargo
+- id: cargo-fmt
+  name: cargo fmt
+  description: Format sources with ‹cargo fmt›.
+  entry: cargo fmt
+  args:
+    - "--"
+  language: system
+  types:
+    - rust
+- id: cargo-check
+  name: cargo check
+  description: Check the crate for errors.
+  entry: cargo check
+  language: system
+  types:
+    - rust
+  pass_filenames: false
+- id: cargo-clippy
+  name: cargo clippy
+  description: Lint the crate with ‹cargo clippy›.
+  entry: cargo clippy
+  args:
+    - "--"
+  language: system
+  types:
+    - rust
+  pass_filenames: false
