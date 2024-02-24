@@ -3,12 +3,12 @@
   name: clang-format
   description: Format C/C++ sources with ‹clang-format›.
   entry: clang-format -i
+  args:
+    - "-style=file"
   language: system
   types_or:
     - c
     - c++
-  args:
-    - "-style=file"
 
 # Rust
 - id: rust-fmt
