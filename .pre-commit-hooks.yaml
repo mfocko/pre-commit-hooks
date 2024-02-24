@@ -21,7 +21,7 @@
 - id: rust-clippy
   name: clippy
   description: Lint Rust sources with ‹clippy›.
-  entry: clippy-driver
+  entry: rust/clippy-driver.sh
   language: system
   types:
     - rust
