@@ -10,6 +10,18 @@
     - c
     - c++
 
+# C#
+- id: dotnet-format
+  name: dotnet format
+  description: Format .NET sources with ‹dotnet format›.
+  entry: dotnet-format
+  args:
+    - "--include"
+  language: dotnet
+  types_or:
+    - c#
+    - vb
+
 # Rust
 - id: rust-fmt
   name: rustfmt
