@@ -1,3 +1,9 @@
+## 1.2.1 (2024-03-15)
+
+### Fix
+
+- **dotnet-format**: use system dotnet and dotnet binary
+
 ## 1.2.0 (2024-03-15)
 
 ### Feat
