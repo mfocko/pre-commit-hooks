@@ -14,10 +14,10 @@
 - id: dotnet-format
   name: dotnet format
   description: Format .NET sources with ‹dotnet format›.
-  entry: dotnet-format
+  entry: dotnet format
   args:
     - "--include"
-  language: dotnet
+  language: system
   types_or:
     - c#
     - vb
